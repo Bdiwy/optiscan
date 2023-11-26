@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="[https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg](https://www.befunky.com/create/?state=%7B%22ids%22:%5B%221fZz3UIaqjkePLVxDVn38L0IRvNbD1dHV%22%5D,%22action%22:%22open%22,%22resourceKeys%22:%7B%7D%7D)" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="[[https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg](https://www.befunky.com/create/?state=%7B%22ids%22:%5B%221fZz3UIaqjkePLVxDVn38L0IRvNbD1dHV%22%5D,%22action%22:%22open%22,%22resourceKeys%22:%7B%7D%7D)](https://th.bing.com/th/id/OIP.8J2sVAnj0kfwBWt24YP3aQHaFB?rs=1&pid=ImgDetMain)" width="400" alt="optiscan Logo"></a></p>
 
 <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>

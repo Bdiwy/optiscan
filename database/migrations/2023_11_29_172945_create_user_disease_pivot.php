@@ -13,13 +13,9 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('users', function (Blueprint $table) {
-            $table->id();
-            $table->string('name');
-            $table->string('email')->unique();
-            $table->timestamp('email_verified_at')->nullable();
-            $table->string('password');
-            $table->rememberToken();
+        Schema::create('user_disease_pivot', function (Blueprint $table) {
+            $table->integer('user_id');
+            $table->integer('diseases_id');
             $table->timestamps();
         });
     }
@@ -31,7 +27,6 @@ return new class extends Migration
      */
     public function down()
     {
-        
-        Schema::dropIfExists('users');
+        Schema::dropIfExists('user_disease_pivot');
     }
 };

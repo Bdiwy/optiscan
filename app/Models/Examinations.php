@@ -13,6 +13,19 @@ class Examinations extends Model
     use HasFactory;
 
 
+    protected $fillable = [
+        'tybe',
+        'status_of_user'
+    
+    ];
+
+        protected $hidden = [
+    
+        'created_at',
+        'updated_at',
+    ];
+
+
 
     public function users()
     {

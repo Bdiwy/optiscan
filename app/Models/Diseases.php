@@ -9,8 +9,18 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Diseases extends Model
 {
-    use HasFactory;
+    use  HasFactory;
 
+    protected $fillable = [
+        'name',
+    
+    ];
+
+        protected $hidden = [
+    
+        'created_at',
+        'updated_at',
+    ];
 
 
 

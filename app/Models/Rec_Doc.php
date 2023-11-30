@@ -11,7 +11,21 @@ class Rec_Doc extends Model
     use HasFactory;
 
 
+    protected $fillable = [
+        'name',
+        'location',
+        'disease_understand',
+        'rating',
+        'academic_position',
+    ];
 
+    
+    protected $hidden = [
+        'created_at',
+        'updated_at',
+    ];
+
+    
     public function disease()
     {
         return $this->belongsToMany(Diseases::class,'rec_doc_disease_pivot');

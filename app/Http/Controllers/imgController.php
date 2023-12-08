@@ -25,23 +25,23 @@ class imgController extends Controller
     public function patient(Request $request)
 {
             $query = $request->input('eye', 'default value');
-            if($query='examin')
+            if($query=='examin')
             {
                 $fileName='examin_img.jpg';
                 $request->file('photo')->move(public_path("imgs/examin_photo"),$fileName);
-                $photoUrl=url('/imgs/examin_photo'.$fileName);
+                $photoUrl=url('/imgs/examin_photo/'.$fileName);
                 return response()->json([
                     'url'=>$photoUrl,
                     'message'=>'examin uploaded successfully',
                     'status'=>'200'
             ],200);
-            }elseif ($query='eye') {
+            }elseif ($request->input('eye')=='eye') {
                 $fileName='ahmed_img.jpg';
                 $request->file('photo')->move(public_path("imgs/eye_photo"),$fileName);
-                $photoUrl=url('/imgs/eye_photo'.$fileName);
+                $photoUrl=url('/imgs/eye_photo/'.$fileName);
                 return response()->json([
                     'url'=>$photoUrl,
-                    'message'=>'examin uploaded successfully',
+                    'message'=>'eye uploaded successfully',
                     'status'=>'200'
                 ],200);
             }else

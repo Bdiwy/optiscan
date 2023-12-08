@@ -1,11 +1,10 @@
 <?php
 
 namespace Database\Factories;
-use Illuminate\Support\Str;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Str;
 
-
-class ExaminationFactory extends Factory
+class ExaminationsFactory extends Factory
 {
     /**
      * Define the model's default state.

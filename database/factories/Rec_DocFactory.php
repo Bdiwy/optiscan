@@ -3,8 +3,9 @@
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Str;
 
-class RecDrsFactory extends Factory
+class Rec_DocFactory extends Factory
 {
     /**
      * Define the model's default state.

@@ -10,7 +10,7 @@ class Rec_Doc extends Model
 {
     use HasFactory;
 
-
+    protected $table='rec_docs';
     protected $fillable = [
         'name',
         'location',

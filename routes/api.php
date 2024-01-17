@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AIController;
 use App\Http\Controllers\imgController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\UserController;
@@ -62,3 +63,4 @@ Route::post('/patient',[imgController::class,'patient'])->middleware('auth:api')
 Route::get('/download_photo/{user?}',[imgController::class,'download_photo']);
 
 
+Route::get('/predict', [AIController::class,'predict']);

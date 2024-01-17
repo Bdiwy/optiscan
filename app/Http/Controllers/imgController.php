@@ -33,7 +33,7 @@ class imgController extends Controller
         $img = $user->img->first();
         $photoname= $img ? $img->photo : null;
         $path= public_path("imgs\\".$tybe."_photo\\").$photoname;
-        
+
         if (file_exists($path)) {
             return response()->download($path);
         } else {

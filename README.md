@@ -1,53 +1,27 @@
-<p align="center"><a href="#" target="_blank"><img src="https://th.bing.com/th/id/OIP.8J2sVAnj0kfwBWt24YP3aQHaFB?rs=1&pid=ImgDetMain" width="400" alt="OptiScan Logo"></a></p>
+<h1 align="center">Welcome to OptiScan 👋</h1>
+<p>
+  <a href="https://twitter.com/ahmed_bdiwy_" target="_blank">
+    <img alt="Twitter: ahmed_bdiwy_" src="https://img.shields.io/twitter/follow/ahmed\_bdiwy\_.svg?style=social" />
+  </a>
+</p>
+
+<p align="center"><a href="#" target="_blank"><img src="https://scontent.fcai20-4.fna.fbcdn.net/v/t39.30808-6/417523374_1778269922687484_266122577863135239_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeHEfwA80AnBs7KpKU9D_sLnx5sOPaHKZ33Hmw49ocpnfeeIDzOo-UdkkpXYVvsCipAhI6SJdrXgxhMMU2kL4eS-&_nc_ohc=LWmB7baji-YAX_u2Sif&_nc_ht=scontent.fcai20-4.fna&oh=00_AfAaUofK4RLW22Jvlw1YG-NKPbyyOyIJoUu8I6dPQcJhtA&oe=65CA85AA" width="400" alt="OptiScan Logo"></a></p>
 
 ## About Optiscan
 
 OptiScan is a Mobile application made for :
 detection of body diseases through the eye is an innovative approach that utilizes advanced technology to analyze eye images and identify potential signs of
 various diseases 
-or conditions. By examining the structures within the eye, such as the retina, blood vessels, and optic nerve, this program aims to aid in the early detection and diagnosis of systemic diseases.
+or conditions. By examining the structures within the eye, such as the retina, blood vessels, and optic nerve, this program aims to aid in the early detection and diagnosis of systemic diseases like :
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-OptiScan is opensource project, made with love.
-
-## Learning OptiScan
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+- [Cataract](https://en.wikipedia.org/wiki/Cataract).
+- [Diabetic](https://www.mayoclinic.org/diseases-conditions/diabetes/symptoms-causes/syc-20371444).
+- [Glaucoma Diagnosis](https://www.nhs.uk/conditions/glaucoma/diagnosis/).
+-  normal , have no diaeases
 
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Thank you for considering contributing to optiscan so you can make pull request and we will be greatfull ,
 
 ## Code of Conduct
 
@@ -55,8 +29,8 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within Optiscan, please send an e-mail to me Ahmed bdiwy via [dev.ahmed.bdiwy@gmail.com](mailto:dev.ahmed.bdiwy@gmail.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+It's important to note that there is no license for education or science. On a related note, OptiScan is actually an open-source project that was made with love.

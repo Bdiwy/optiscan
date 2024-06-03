@@ -7,6 +7,8 @@ use App\Http\Controllers\imgController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\RecDocController;
+use App\Http\Controllers\CommandController;
+use App\Http\Controllers\Controller;
 use App\Http\Controllers\DiseasesController;
 use App\Http\Controllers\ExaminationsController;
 
@@ -21,10 +23,6 @@ use App\Http\Controllers\ExaminationsController;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
-
 Route::group([
     'middleware' => 'api',
     'prefix' => 'auth'
@@ -36,31 +34,17 @@ Route::group([
     Route::get('/user-profile', [AuthController::class, 'userProfile']);    
 });
 
-Route::prefix('users')->group(function () {
-    Route::get('/{id?}', [UserController::class, 'users']);
-    // Route::get('/{id}', [UserController::class, 'SpaceficUser']);
-});
+Route::get('/', [Controller::class, 'health']);
 
-
-Route::prefix('diseases')->group(function () {
-    Route::get('/{id?}', [DiseasesController::class, 'diseases']);
-    //Route::get('/{id}', [DiseasesController::class, 'SpaceficDiseases']);
-});
-
+Route::get('/git-pull', [CommandController::class, 'gitPull']);
+Route::get('/migrate', [CommandController::class, 'migrate']);
+Route::get('/clear-cache', [CommandController::class, 'clearCache']);
 
 Route::prefix('recdoc')->group(function () {
     Route::get('/{id?}', [RecDocController::class, 'rec_doc']);
     // Route::get('/{id}', [RecDocController::class, 'SpaceficUser']);
 });
 
-
-Route::prefix('examinations')->group(function () {
-    Route::get('/{id?}', [ExaminationsController::class, 'examinations']);
-    //Route::get('/{id}', [DiseasesController::class, 'SpaceficDiseases']);
-});
-
+ 
 Route::post('/patient',[imgController::class,'patient'])->middleware('auth:api');
-Route::get('/download_photo/{user?}',[imgController::class,'download_photo']);
-
-
-Route::get('/predict', [AIController::class,'predict']);
+Route::get('/download_photo',[imgController::class,'download_photo']);

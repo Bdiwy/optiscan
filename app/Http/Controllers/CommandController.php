@@ -56,7 +56,8 @@ public function migrate()
         Artisan::call('cache:clear');
         Artisan::call('view:clear');
         Artisan::call('route:clear');
+        Artisan::call('config:cache');
 
-        return response()->json(['message' => 'Cache, view, and route cleared successfully']);
+        return response()->json(['message' => 'Cache, view, config and route cleared successfully']);
     }
 }

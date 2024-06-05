@@ -12,6 +12,6 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
     public function health(Request $request){
-        return "working" ;
+        return view('welcome');
     }
 }

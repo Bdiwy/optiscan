@@ -5,7 +5,7 @@
   </a>
 </p>
 
-<p align="center"><a href="#" target="_blank"><img src="https://scontent.fcai20-4.fna.fbcdn.net/v/t39.30808-6/417523374_1778269922687484_266122577863135239_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeHEfwA80AnBs7KpKU9D_sLnx5sOPaHKZ33Hmw49ocpnfeeIDzOo-UdkkpXYVvsCipAhI6SJdrXgxhMMU2kL4eS-&_nc_ohc=LWmB7baji-YAX_u2Sif&_nc_ht=scontent.fcai20-4.fna&oh=00_AfAaUofK4RLW22Jvlw1YG-NKPbyyOyIJoUu8I6dPQcJhtA&oe=65CA85AA" width="400" alt="OptiScan Logo"></a></p>
+<p align="center"><a href="#" target="_blank"><img src="https://scontent.fcai22-4.fna.fbcdn.net/v/t39.30808-6/447648208_1849257792255363_8163219106819514122_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGDN0CS0RHX8dnapgsRcQmjkgojECjv1xOSCiMQKO_XE_wFoIcL65IhhFduaex2PvpXXtHSZGgWwNFlVJTmnFHO&_nc_ohc=2qkn6ddXeo4Q7kNvgHvKNQZ&_nc_ht=scontent.fcai22-4.fna&oh=00_AYClTiY10x6yokUMYQFkzafRpBJ-oF1xNOr0stLBPBHdiQ&oe=666D58E5" width="400" alt="OptiScan Logo"></a></p>
 
 ## About Optiscan
 
